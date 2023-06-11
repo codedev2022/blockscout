@@ -21,6 +21,10 @@
       <div class="col-xs-12 col-lg-3">
         <p class="footer-info-text"><%= gettext("Blockchain explorer for Ember Networks.") %></p>
         <div class="footer-social-icons">
+          <a href="https://embers.fyi/" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Website") %>'>
+            <div class="footer-social-icon-container fontawesome-icon bar-chart"></div>
+          </a>
+
           <a href="https://twitter.com/Nuraliev1CC/" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Twitter") %>'>
             <div class="footer-social-icon-container fontawesome-icon twitter"></div>
           </a>
