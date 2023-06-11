@@ -31,7 +31,7 @@ services:
         RELEASE_VERSION: 5.1.5
     restart: always
     stop_grace_period: 5m
-    container_name: 'blockscout2'
+    container_name: 'blockscout'
     links:
       - db:database
     command: bash -c "bin/blockscout eval \"Elixir.Explorer.ReleaseTasks.create_and_migrate()\" && bin/blockscout start"
