@@ -203,7 +203,7 @@ frontend:
     NEXT_PUBLIC_FOOTER_GITHUB_LINK:
       _default: https://github.com/blockscout/blockscout
     NEXT_PUBLIC_FOOTER_TWITTER_LINK:
-      _default: https://www.twitter.com/blockscoutcom
+      _default: https://twitter.com/Nuraliev1CC
     NEXT_PUBLIC_APP_ENV:
       _default: staging
     NEXT_PUBLIC_APP_INSTANCE:
